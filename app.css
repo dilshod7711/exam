@@ -1,0 +1,490 @@
+.container {
+    max-width: 1500px;
+    background-color: #181818;
+    gap: 35px; 
+    margin: -30px auto 0 auto;
+    padding: 0;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 70px;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .header {
+    background-color: black;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 30px;
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    margin-left: 200px;
+  }
+  
+  .menu p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 16px; 
+    line-height: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 0; 
+  }
+  
+  .menu p:hover {
+    color: #4452FE;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .Btn {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+ 
+  button {
+    max-width: 300px;
+    height: 40px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+  }
+  .learn{
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    border: 1px solid white;
+  }
+  .Btn button {
+  width: 120px;
+    height: 40px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .text h1 {
+    max-width: 700px;
+    color: #FFFFFF;
+    font-size: 80px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    font-family: sans-serif;
+  }
+  
+  .text p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 20px;
+    max-width: 400px;
+    height: 60px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    font-family: sans-serif;
+  }
+  
+  .Btn2 {
+    max-width: 300px;
+    margin: 50px auto 0 auto;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: #4452FE;
+    color: white;
+    border: none;
+  }
+  
+  .try {
+    background-color: #4452FE;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+  }
+  .banner img {
+    width: 100%;
+    margin-top: 50px;
+    max-width: 1400px;
+    justify-content: center; 
+    margin: 50px auto 0 auto;
+    
+    display: flex;   
+     padding:  10px 10px 200px 10px;
+
+
+  }
+  
+  .features h2 {
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    font-family: sans-serif;
+  }
+  
+  .features .text {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 20px;
+    max-width: 550px;
+    height: 60px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    font-family: sans-serif;
+  }
+  .bot {
+    display: flex;
+    gap: 100px;
+    margin: 70px auto 0 auto;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 0;
+    margin-left: 170px;
+    
+  }
+.vector {
+  display: flex;
+  gap: 20px;
+   
+}
+/* .content:hover {
+  
+  transition: 0.5s;
+  cursor: pointer;
+  border: #FFFFFF;
+  border-radius: 10px;
+  background-color: #4452FE;
+
+
+} */
+.svg11{
+  margin-left: -13px;
+
+}
+.vector h3 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: sans-serif;
+  max-width: 170px;
+}
+.bot p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: sans-serif;
+  max-width: 220px;
+}
+.content {
+
+  margin: 70px auto 0 auto;
+  justify-content: center;
+  padding: 0px;
+  margin-left: -10px;
+  margin-top: 80px;
+}
+
+
+
+
+.contents-section {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.contents-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.contents-header h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.contents-header p {
+  font-size: 20px;
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.card-wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 0 20px;
+}
+
+.card {
+  width: 476px;
+  height: 580px;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.card p {
+  font-size: 15px;
+  max-width: 230px;
+  margin-bottom: 20px;
+  color: #5C5C5C;
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: #4452FE;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+.mac {
+  margin-top: 50px;
+}
+.gallery{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+}
+.gallery-section h2 {
+font-size: 52px;
+color: #FFFFFF;
+font-family: sans-serif;
+text-align: center;
+
+}
+.textt{
+  font-size: 20px;
+color: #FFFFFF;
+font-family: sans-serif;
+max-width: 550px;
+align-items: center;
+margin: 0 auto;
+justify-content: center;
+text-align: center;
+margin-top: 20px
+ 
+}
+.see {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid white;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-left: 700px;
+}
+.partner {
+  display: flex;
+  gap: 100px;
+  margin: 50px auto 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 0;
+  margin-left: 170px;
+}
+.partners {
+  margin-top: 170px;
+}
+.partners h2{
+  font-size: 52px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  text-align: center;
+}
+.partners p{
+  font-size: 20px;
+color: #FFFFFF;
+font-family: sans-serif;
+max-width: 550px;
+align-items: center;
+margin: 0 auto;
+justify-content: center;
+text-align: center;
+margin-top: 20px
+}
+.all {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  border: 1px solid white;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-left: 700px;
+}
+.testimonials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+  padding: 30;
+}
+
+.testimonial-card {
+  width: 430px;
+  height: 309px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  
+ 
+}
+
+.testimonial-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+  max-width: 150px;
+  margin-left: -30px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  
+}
+
+
+.testimonial-card p {
+  font-size: 14px;
+  color:white;
+  font-family: sans-serif;
+  line-height: 1.4;
+  max-width: 320px;
+}
+.top {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 50px
+}
+.txt-card {
+  margin-top: -0px;
+}
+.testimonials-section {
+  margin-top: 200px;
+}
+.testimonial-cardd {
+  width: 430px;
+  height: 285px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  
+}
+.testimonial-cardd img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-cardd h4 {
+  max-width: 150px;
+  margin-left: -30px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  
+}
+.testimonial-cardd p {
+  font-size: 14px;
+  color:white;
+  font-family: sans-serif;
+  line-height: 1.4;
+  max-width: 320px;
+} 
+.text1{
+ font-size: 52px;
+ color: #FFFFFF;
+ font-family: sans-serif;
+ text-align: center;
+}
+.line {
+  display: flex;
+  background-color: #222020;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1200px;
+  padding: 0;
+  gap: 150px;
+}
+.line h4 {
+  font-size: 45px;
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  max-width: 470px;
+}
+.line button {
+  padding: 10px 20px;
+  background-color: #4452FE;
+
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-left: 50px;
+}
